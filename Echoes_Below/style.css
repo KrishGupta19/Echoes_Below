@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #000;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+  }
+  
+  #ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+  
